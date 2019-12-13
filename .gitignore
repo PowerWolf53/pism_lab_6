@@ -25,9 +25,12 @@ buildNumber.properties
 
 
 
+
 ##############################
 ## IntelliJ
 ##############################
+GitLab.iml
+idea/
 out/
 .idea/
 .idea_modules/
