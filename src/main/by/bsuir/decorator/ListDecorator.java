@@ -13,7 +13,7 @@ public class ListDecorator {
     public ArrayList<String> search(String searchString){
         ArrayList<String> foundElements = new ArrayList<>();
         this.list.forEach(element->{
-            if(element.startsWith(searchString)){
+            if(element.equals(searchString)){
                 foundElements.add(element);
             }
         });
